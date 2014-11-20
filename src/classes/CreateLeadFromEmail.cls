@@ -1,6 +1,7 @@
 global class CreateLeadFromEmail implements Messaging.InboundEmailHandler {
   global Messaging.InboundEmailResult handleInboundEmail(Messaging.inboundEmail email, 
                                                        Messaging.InboundEnvelope env){
+                                                       	//Test comment
     // Create an InboundEmailResult object for returning the result of the  
     // Apex Email Service 
     Messaging.InboundEmailResult result = new Messaging.InboundEmailResult();
